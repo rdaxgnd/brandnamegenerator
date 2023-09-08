@@ -70,10 +70,14 @@
   .main {
     width: 320px;
     flex-direction: column;
+    padding-top: 0px;
   }
   .frame {
     width: 320px;
     grid-template-columns: auto auto;
+  }
+  .frame > div {
+    font-size: 16px;
   }
   .barItem {
     display: none;
@@ -87,10 +91,14 @@
   .main {
     width: 220px;
     flex-direction: column;
+    padding-top: 0px;
   }
   .frame {
     width: 220px;
     grid-template-columns: auto;
+  }
+  .frame > div {
+    font-size: 16px;
   }
   .barItem {
     display: none;
