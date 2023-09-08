@@ -5,26 +5,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid #cccccc;
-  border-radius: 16px;
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .frame {
+  width: 1200px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: auto auto auto auto;
   text-align: left;
+  border: 2px solid #cccccc;
+  border-radius: 16px;
+  padding: 2rem;
+  gap: 2rem;
 }
 
   .frame > div {
-    padding-bottom: 2rem;
+    font-size: 26px;
   }
 
 .bar {
   width: 100%;
   display: grid;
   grid-template-columns: auto 200px;
-  padding-top: 2rem;
+  padding: 2rem;
 }
 
 .button {
@@ -43,4 +46,8 @@
 .button:hover {
   background-color: #505050;
   transition: ease-in-out 0.1s;
+}
+
+.button::selection {
+  text-decoration: none;
 }

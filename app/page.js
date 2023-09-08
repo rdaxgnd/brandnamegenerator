@@ -40,7 +40,14 @@ export default function Home() {
         <div>{groupTwo.two}{groupFive.five}{groupSix.six}{groupOne.one}{groupFour.four}</div>
         <div>{groupOne.one}{groupTwo.two}{groupSix.six}{groupFive.five}{groupFour.four}</div>
         <div>{groupFour.four}{groupThree.three}{groupTwo.two}{groupOne.one}</div>
-        
+        <div>{groupFour.four}{groupOne.one}{groupTwo.two}{groupFive.five}</div>
+        <div>{groupFive.five}{groupTwo.two}{groupOne.one}{groupFour.four}</div>
+        <div>{groupThree.three}{groupFour.four}{groupFive.five}{groupSix.six}{groupOne.one}{groupTwo.two}</div>
+        <div>{groupOne.one}{groupFour.four}{groupTwo.two}{groupFive.five}{groupSix.six}</div>
+        <div>{groupSix.six}{groupFive.five}{groupTwo.two}{groupOne.one}{groupFour.four}{groupThree.three}</div>
+        <div>{groupTwo.two}{groupThree.three}{groupOne.one}{groupFour.four}{groupFive.five}{groupSix.six}</div>
+        <div>{groupFive.five}{groupSix.six}{groupOne.one}{groupFour.four}</div>
+        <div>{groupOne.one}{groupTwo.two}{groupSix.six}{groupFive.five}{groupFour.four}{groupOne.one}{groupTwo.two}</div>
 
       </div>
 
