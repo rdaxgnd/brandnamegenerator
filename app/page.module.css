@@ -13,10 +13,10 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   text-align: left;
-  border: 2px solid #cccccc;
   border-radius: 16px;
   padding: 2rem;
   gap: 2rem;
+  background-color: #ffffff;
 }
 
   .frame > div {

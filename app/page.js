@@ -5,8 +5,8 @@ import styles from './page.module.css'
 
 // Generator settings as basic
 const varLetters = {
-  group1: ['a', 'e', 'i', 'o', 'u'],
-  group2: ['r', 't', 'y', 'p', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'],
+  group1: ['a', 'e', 'a', 'e', 'i', 'o', 'u', 'u'],
+  group2: ['r', 't', 'y', 'p', 's', 'd', 'f', 'g', 'h', 'k', 'l', 'z', 'c', 'v', 'b', 'n', 'm'],
 }
 
 export default function Home() {
