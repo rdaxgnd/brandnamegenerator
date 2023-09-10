@@ -42,7 +42,7 @@
   color: var(--white);
   padding-top: 12px;
   padding-bottom: 12px;
-  border-radius: 4px;
+  border-radius: 50px;
   font-size: 14px;
   cursor: pointer;
   transition: ease-in-out 0.1s;
@@ -57,11 +57,27 @@
   text-decoration: none;
 }
 
+.text {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: left;
+  border-radius: 16px;
+  padding: 2rem;
+  gap: 2rem;
+  border: 2px solid #505050;
+}
+
 @media screen and (max-width: 1360px) {
   .main {
     width: 720px;
   }
   .frame {
+    width: 720px;
+  }
+  .text {
     width: 720px;
   }
 }
@@ -85,6 +101,10 @@
   .button {
     width: 320px;
   }
+  .text {
+    width: 320px;
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -104,6 +124,9 @@
     display: none;
   }
   .button {
+    width: 220px;
+  }
+  .text {
     width: 220px;
   }
 }
