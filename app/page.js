@@ -54,7 +54,7 @@ export default function Home() {
       <div className={styles.bar}>
         
         <div className={styles.barItem}>Brand Name Generator</div>
-        <div className={styles.button} accessKey={'g'} onClick={generateWord}>Generate</div>
+        <div className={styles.button} onClick={generateWord}>Generate</div>
 
       </div>
 
