@@ -57,7 +57,7 @@
   text-decoration: none;
 }
 
-.text {
+.textFrame {
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 1200px;
@@ -77,7 +77,7 @@
   .frame {
     width: 720px;
   }
-  .text {
+  .textFrame {
     width: 720px;
   }
 }
@@ -101,7 +101,7 @@
   .button {
     width: 320px;
   }
-  .text {
+  .textFrame {
     width: 320px;
     grid-template-columns: auto;
   }
@@ -126,7 +126,7 @@
   .button {
     width: 220px;
   }
-  .text {
+  .textFrame {
     width: 220px;
   }
 }

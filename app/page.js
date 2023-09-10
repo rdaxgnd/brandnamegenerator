@@ -58,7 +58,7 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.text}>
+      <div className={styles.textFrame}>
         <div>In a world saturated with businesses and products, finding the perfect brand name has become a crucial element of success. Whether you're starting a new venture or rebranding an existing one, the right name can make all the difference. This is where brand name generator websites step in as invaluable tools for entrepreneurs and marketers alike. The process of finding the ideal brand name is a delicate balance between creativity and strategy.</div>
         <div>Brand name generator websites are designed to streamline this process. They employ algorithms that consider factors like industry relevance, keyword incorporation, and brand uniqueness. These platforms analyze vast databases of existing names and trending terms to generate suggestions that align with your business goals.</div>
         <div>One of the primary advantages of using a brand name generator website is the sheer volume of possibilities they offer. These platforms can generate hundreds, if not thousands, of name ideas within seconds. This not only saves time but also exposes you to a diverse array of choices you may not have considered otherwise. It's like having a team of creative thinkers at your disposal, working tirelessly to brainstorm the perfect name.</div>
