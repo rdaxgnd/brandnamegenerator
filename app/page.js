@@ -7,6 +7,8 @@ import styles from './page.module.css'
 const varLetters = {
   group1: ['a', 'e', 'a', 'e', 'i', 'o', 'u', 'u'],
   group2: ['r', 't', 'y', 'p', 's', 'd', 'f', 'g', 'h', 'k', 'l', 'z', 'c', 'v', 'b', 'n', 'm'],
+  group3: ['r', 'p', 's', 'd', 'g', 'c', 'b', 'n', 'm'],
+  group4: ['x', 'q',],
 }
 
 export default function Home() {
@@ -22,9 +24,9 @@ export default function Home() {
     setGroupOne({one: varLetters.group1[Math.floor(Math.random() * varLetters.group1.length)]})
     setGroupTwo({two: varLetters.group2[Math.floor(Math.random() * varLetters.group2.length)]})
     setGroupThree({three: varLetters.group1[Math.floor(Math.random() * varLetters.group1.length)]})
-    setGroupFour({four: varLetters.group2[Math.floor(Math.random() * varLetters.group2.length)]})
+    setGroupFour({four: varLetters.group3[Math.floor(Math.random() * varLetters.group3.length)]})
     setGroupFive({five: varLetters.group1[Math.floor(Math.random() * varLetters.group1.length)]})
-    setGroupSix({six: varLetters.group2[Math.floor(Math.random() * varLetters.group2.length)]})
+    setGroupSix({six: varLetters.group4[Math.floor(Math.random() * varLetters.group4.length)]})
   }
 
   return (
