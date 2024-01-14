@@ -8,7 +8,7 @@ const varLetters = {
   group1: ['a', 'e', 'a', 'e', 'i', 'o', 'u', 'u'],
   group2: ['r', 't', 'y', 'p', 's', 'd', 'f', 'g', 'h', 'k', 'l', 'z', 'c', 'v', 'b', 'n', 'm'],
   group3: ['r', 'p', 's', 'd', 'g', 'c', 'b', 'n', 'm'],
-  group4: ['x', 'q',],
+  group4: ['x', 'q', 'r', 't', 'y', 'p', 's', 'd', 'f', 'g', 'h', 'k', 'l', 'z', 'c', 'v', 'b', 'n', 'm'],
 }
 
 export default function Home() {
