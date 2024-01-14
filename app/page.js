@@ -47,7 +47,7 @@ export default function Home() {
         <div>{groupSix.six}{groupFive.five}{groupTwo.two}{groupOne.one}{groupFour.four}{groupThree.three}</div>
         <div>{groupTwo.two}{groupThree.three}{groupOne.one}{groupFour.four}{groupFive.five}{groupSix.six}</div>
         <div>{groupFive.five}{groupSix.six}{groupOne.one}{groupFour.four}</div>
-        <div>{groupTwo.two}{groupSix.five}{groupFive.six}{groupFour.four}{groupOne.one}{groupTwo.two}</div>
+        <div>{groupTwo.two}{groupFive.five}{groupSix.six}{groupFour.four}{groupOne.one}{groupTwo.two}</div>
 
       </div>
 
