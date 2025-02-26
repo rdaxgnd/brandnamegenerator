@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: left; padding: 20px; }
+        button { background: #212121; color: #f0f0f0; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; border: none; }
+        .words { margin-top: 20px; font-size: 18px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: left; text-align: justify; }
+        .word { padding: 5px 10px; background: #f0f0f0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <button onclick="generateWords()">Generate</button>
+    <div class="words" id="wordsContainer"></div>
+
+    <script>
+        function generateWord() {
+            const vowels = "aeiou";
+            const consonants = "bcdfghjklmnpqrstvwxyz";
+            let word = "";
+            let length = Math.floor(Math.random() * 3) + 4; // Word length 4-6 letters
+            
+            for (let i = 0; i < length; i++) {
+                if (i % 2 === 0) {
+                    word += consonants.charAt(Math.floor(Math.random() * consonants.length));
+                } else {
+                    word += vowels.charAt(Math.floor(Math.random() * vowels.length));
+                }
+            }
+            return word;
+        }
+
+        function generateWords() {
+            const wordsContainer = document.getElementById("wordsContainer");
+            wordsContainer.innerHTML = "";
+            let words = [];
+            for (let i = 0; i < 200; i++) {
+                let word = generateWord();
+                words.push(`<span class="word">${word}</span>`);
+            }
+            wordsContainer.innerHTML = words.join(" ");
+        }
+    </script>
+</body>
+</html>
